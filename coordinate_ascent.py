@@ -14,7 +14,7 @@ import sklearn
 
 from sklearn.utils import check_X_y
 from scipy.sparse import issparse
-from WS_24_EDDS_GROUP2.metrics import NDCGScorer
+from metrics import NDCGScorer
 
 
 class CoordinateAscent(sklearn.base.BaseEstimator):
