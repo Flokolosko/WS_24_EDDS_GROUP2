@@ -2,7 +2,7 @@ from __future__ import division
 
 import numpy as np
 
-from utils import group_offsets
+from utils.utils import group_offsets
 
 
 class Scorer(object):
